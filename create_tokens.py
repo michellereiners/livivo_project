@@ -4,9 +4,9 @@ import elasticsearch_dsl
 import xx_sent_ud_sm
 import en_core_sci_lg
 
-
-df = pd.read_csv("git/livivo_project/Data/livivo_medline_all_filtered.csv")
-df.fillna(value="", inplace=True)
+#
+# df = pd.read_csv("git/livivo_project/Data/livivo_medline_all_filtered.csv")
+# df.fillna(value="", inplace=True)
 
 
 #%%

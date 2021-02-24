@@ -1,0 +1,1001 @@
+qid,query,new_query,cnt_results,relevant_found,share
+747,morphine AND palliative,"morphine,palliative",5.0,5,1.0
+859,cystic AND fibrosis,"cystic,fibrosis",19.0,19,1.0
+100,borderline,borderline,5.0,5,1.0
+392,postnatal AND depression,"postnatal,depression",5.0,5,1.0
+274,tadalafil,tadalafil,8.0,8,1.0
+593,heart AND failure,"heart,failure",22.0,22,1.0
+591,physiotherapy,physiotherapy,1.0,1,1.0
+590,parodontitis,parodontitis,1.0,1,1.0
+217,anorexia AND nervosa,"anorexia,nervosa",11.0,11,1.0
+727,aromatherapy,aromatherapy,12.0,12,1.0
+484,breast AND care AND nurse,"breast,care,nurse",8.0,8,1.0
+957,leukemia AND drug AND therapy,"leukemia,drug,therapy",6.0,6,1.0
+576,chorea AND huntington,"chorea,huntington",16.0,16,1.0
+574,school AND nurse,"school,nurse",6.0,6,1.0
+570,sars,sar,1.0,1,1.0
+733,anatomy,anatomy,1.0,1,1.0
+411,rosuvastatin,rosuvastatin,4.0,4,1.0
+735,motivational AND interviewing,"motivational,interviewing",1.0,1,1.0
+423,psoriasis,psoriasis,17.0,17,1.0
+107,salutogenese,salutogenese,1.0,1,1.0
+525,ibuprofen,ibuprofen,11.0,11,1.0
+800,pythium,pythium,1.0,1,1.0
+239,11-dehydrocorticosterone,11-dehydrocorticosterone,68.0,68,1.0
+881,benzodiazepine,benzodiazepine,2.0,2,1.0
+368,tinnitus,tinnitus,2.0,2,1.0
+622,windeldermatitis,windeldermatitis,1.0,1,1.0
+383,blutgasanalyse,blutgasanalyse,1.0,1,1.0
+136,cannabis,cannabi,1.0,1,1.0
+461,dienstplangestaltung,dienstplangestaltung,1.0,1,1.0
+466,travoprost,travoprost,54.0,54,1.0
+108,coronavirus,coronavirus,1.0,1,1.0
+912,intertrigo,intertrigo,11.0,11,1.0
+254,esperanto,esperanto,1.0,1,1.0
+227,vernakalant,vernakalant,9.0,9,1.0
+123,midwife,midwife,1.0,1,1.0
+475,cbd,cbd,1.0,1,1.0
+795,adhd,adhd,1.0,1,1.0
+111,aromatherapie,aromatherapie,1.0,1,1.0
+524,decubitus,decubitus,1.0,1,1.0
+339,hashimoto,hashimoto,24.0,24,1.0
+28,pesticide AND residues,"pesticide,residue",13.0,13,1.0
+20,animal AND protection,"animal,protection",3.0,3,1.0
+198,health AND literacy,"health,literacy",2.0,2,1.0
+26,organ AND donation,"organ,donation",2.0,2,1.0
+536,pelargonium,pelargonium,3.0,3,1.0
+209,bgm,bgm,1.0,1,1.0
+23,hospital AND hygiene,"hospital,hygiene",2.0,2,1.0
+22,climate AND change,"climate,change",1.0,1,1.0
+19,zika,zika,1.0,1,1.0
+303,asperger,asperger,3.0,3,1.0
+742,audiometrie,audiometrie,1.0,1,1.0
+992,spina AND bifida,"spina,bifida",6.0,6,1.0
+16,zoonosis,zoonosis,2.0,2,1.0
+14,nutrigenomics,nutrigenomic,6.0,6,1.0
+13,zoster,zoster,15.0,15,1.0
+541,hippotherapie,hippotherapie,1.0,1,1.0
+757,mesh,mesh,13.0,13,1.0
+6,interleukin-33,interleukin-33,8.0,8,1.0
+760,muskeldystrophie,muskeldystrophie,1.0,1,1.0
+8,oncogene,oncogene,50.0,49,0.98
+771,aspirin,aspirin,77.0,75,0.974025974025974
+750,telemedicine,telemedicine,28.0,27,0.9642857142857143
+721,fas,fas,21.0,20,0.9523809523809523
+325,amputation,amputation,20.0,19,0.95
+4,influenza,influenza,55.0,52,0.9454545454545454
+396,multiple AND sclerosis,"multiple,sclerosis",34.0,32,0.9411764705882353
+51,pesticide residues,"pesticide,residue",17.0,16,0.9411764705882353
+295,bladder,bladder,30.0,28,0.9333333333333333
+979,cannabidiol,cannabidiol,15.0,14,0.9333333333333333
+438,triage,triage,14.0,13,0.9285714285714286
+463,medline,medline,77.0,71,0.922077922077922
+5,malaria,malaria,11.0,10,0.9090909090909091
+292,occupational AND therapy,"occupational,therapy",21.0,19,0.9047619047619048
+259,primary AND nursing,"primary,nursing",72.0,65,0.9027777777777778
+959,magnesium,magnesium,50.0,45,0.9
+624,weaning,wean,25.0,22,0.88
+283,fatigue,fatigue,37.0,32,0.8648648648648649
+617,aphasia,aphasia,20.0,17,0.85
+31,nuclear AND disaster,"nuclear,disaster",39.0,33,0.8461538461538461
+318,placebo,placebo,16.0,13,0.8125
+572,radiology,radiology,5.0,4,0.8
+199,vitamin AND d,"vitamin,d",62.0,48,0.7741935483870968
+140,schizophrenia,schizophrenia,8.0,6,0.75
+76,parkinson,parkinson,16.0,12,0.75
+900,neurology,neurology,4.0,3,0.75
+857,cardiology,cardiology,3.0,2,0.6666666666666666
+730,patient AND safety,"patient,safety",20.0,13,0.65
+167,stroke,stroke,11.0,7,0.6363636363636364
+73,nuclear disaster,"nuclear,disaster",66.0,42,0.6363636363636364
+407,intubation,intubation,39.0,23,0.5897435897435898
+74,organ donation,"organ,donation",36.0,21,0.5833333333333334
+824,dioxin,dioxin,7.0,4,0.5714285714285714
+213,asthma,asthma,22.0,12,0.5454545454545454
+350,heart,heart,100.0,54,0.54
+414,postnatal depression,"postnatal,depression",43.0,23,0.5348837209302325
+90,burnout,burnout,21.0,11,0.5238095238095238
+132,motivation,motivation,29.0,15,0.5172413793103449
+65,food allergy,"food,allergy",90.0,46,0.5111111111111111
+179,leukemia,leukemia,69.0,35,0.5072463768115942
+81,hiv,hiv,14.0,7,0.5
+2,dementia,dementia,15.0,7,0.4666666666666667
+505,low AND back AND pain,"low,pain",26.0,12,0.46153846153846156
+563,obesity,obesity,11.0,5,0.45454545454545453
+990,team,team,41.0,18,0.43902439024390244
+343,bonding,bonding,10.0,4,0.4
+464,sleep,sleep,80.0,32,0.4
+247,out-of-hospital birth,"out-of-hospital,birth",23.0,8,0.34782608695652173
+784,quality AND of AND life,"quality,life",49.0,17,0.3469387755102041
+999,infection,infection,18.0,6,0.3333333333333333
+61,vegan diet,"vegan,diet",40.0,13,0.325
+71,stress,stress,61.0,19,0.3114754098360656
+893,blood,blood,100.0,28,0.28
+997,nursing AND care,"nursing,care",100.0,26,0.26
+50,depression,depression,38.0,9,0.23684210526315788
+656,massage,massage,9.0,2,0.2222222222222222
+612,quality of life,"quality,life",93.0,20,0.21505376344086022
+54,hpv vaccination,"hpv,vaccination",5.0,1,0.2
+641,prevention,prevention,11.0,2,0.18181818181818182
+258,public AND health,"public,health",23.0,4,0.17391304347826086
+387,back AND pain,pain,66.0,10,0.15151515151515152
+52,jumping gene,"jump,gene",89.0,10,0.11235955056179775
+67,hospital hygiene,"hospital,hygiene",82.0,9,0.10975609756097561
+939,training,training,19.0,2,0.10526315789473684
+358,nurse,nurse,63.0,6,0.09523809523809523
+324,pain,pain,66.0,6,0.09090909090909091
+46,breast cancer,"breast,cancer",100.0,9,0.09
+899,health,health,100.0,9,0.09
+59,animal protection,"animal,protection",100.0,7,0.07
+955,patient,patient,100.0,7,0.07
+113,midwifery,midwifery,52.0,3,0.057692307692307696
+248,rehabilitation,rehabilitation,19.0,1,0.05263157894736842
+64,colony collapse disorder,"colony,collapse,disorder",40.0,2,0.05
+707,hospital,hospital,61.0,3,0.04918032786885246
+677,tumor,tumor,24.0,1,0.041666666666666664
+978,lockdwon OR shutdown OR deutschland OR germany,"lockdwon,shutdown,deutschland,germany",56.0,1,0.017857142857142856
+133,palliative AND care,"palliative,care",68.0,1,0.014705882352941176
+688,schulz AND von AND thun,"schulz,von,thun",1.0,0,0.0
+691,handlungskompetenz AND praxisanleiter,"handlungskompetenz,praxisanleiter",1.0,0,0.0
+689,soziologie,soziologie,1.0,0,0.0
+690,der AND nervenarzt,"der,nervenarzt",1.0,0,0.0
+675,endspurt AND biochemie,"endspurt,biochemie",1.0,0,0.0
+680,migration AND pflege,"migration,pflege",1.0,0,0.0
+687,obstipation AND schwangerschaft,"obstipation,schwangerschaft",1.0,0,0.0
+672,medizinische AND soziologie,"medizinische,soziologie",1.0,0,0.0
+686,emotionen,emotionen,1.0,0,0.0
+673,verbrennungen,verbrennungen,1.0,0,0.0
+685,osteopathie AND leber,"osteopathie,leber",1.0,0,0.0
+684,peripherer AND nerv,"peripherer,nerv",1.0,0,0.0
+683,125-dihydroxycholecalciferol,125-dihydroxycholecalciferol,1.0,0,0.0
+682,isolierung AND stigmatisierung,"isolierung,stigmatisierung",1.0,0,0.0
+681,dialyse AND komplikationen,"dialyse,komplikationen",1.0,0,0.0
+679,das AND humangenomprojekt,"das,humangenomprojekt",1.0,0,0.0
+678,innere AND medizin AND duale AND reihe,"innere,medizin,duale,reihe",1.0,0,0.0
+693,anorexie,anorexie,1.0,0,0.0
+674,telemedizin AND studie,"telemedizin,studie",1.0,0,0.0
+676,mucoviszidose,mucoviszidose,1.0,0,0.0
+692,deeskalation,deeskalation,1.0,0,0.0
+716,usmle,usmle,1.0,0,0.0
+694,generalistik,generalistik,1.0,0,0.0
+718,vernakalant AND pregnancy,"vernakalant,pregnancy",1.0,0,0.0
+720,coaching,coach,1.0,0,0.0
+722,op,op,1.0,0,0.0
+723,trepel,trepel,1.0,0,0.0
+724,videosprechstunde,videosprechstunde,1.0,0,0.0
+725,sprechapraxie,sprechapraxie,1.0,0,0.0
+726,ausbildung,ausbildung,1.0,0,0.0
+728,emotionale AND intelligenz,"emotionale,intelligenz",1.0,0,0.0
+729,employer AND branding,"employer,brand",1.0,0,0.0
+731,c.meyer,c.meyer,1.0,0,0.0
+732,coronavirus AND nursing,"coronavirus,nursing",1.0,0,0.0
+734,haut AND nah,"haut,nah",1.0,0,0.0
+736,postoperativ,postoperativ,1.0,0,0.0
+737,neuroanatomie AND trepel,"neuroanatomie,trepel",1.0,0,0.0
+738,fleischkonsum,fleischkonsum,1.0,0,0.0
+739,adipositas AND kinder,"adiposita,kinder",1.0,0,0.0
+740,nephrologie,nephrologie,1.0,0,0.0
+741,psychische AND belastung,"psychische,belastung",1.0,0,0.0
+743,taschenatlas AND physiologie AND wiesner,"taschenatla,physiologie,wiesner",1.0,0,0.0
+744,lymphdrainage,lymphdrainage,1.0,0,0.0
+719,einarbeitungskonzept,einarbeitungskonzept,1.0,0,0.0
+717,selbsthilfe,selbsthilfe,1.0,0,0.0
+695,icu,icu,1.0,0,0.0
+670,krankenhausfinanzierung,krankenhausfinanzierung,1.0,0,0.0
+696,rheumatoide AND arthritis,"rheumatoide,arthritis",1.0,0,0.0
+697,mitarbeiterbindung AND pflege,"mitarbeiterbindung,pflege",1.0,0,0.0
+698,herausforderndes AND verhalten,"herausfordernde,verhalten",1.0,0,0.0
+699,nervenarzt,nervenarzt,1.0,0,0.0
+700,kinderkardiologie,kinderkardiologie,1.0,0,0.0
+701,management,management,29.0,0,0.0
+702,postoperatives AND delir,"postoperative,delir",1.0,0,0.0
+703,basics AND neurochirurgie,"basic,neurochirurgie",1.0,0,0.0
+704,gesundheitsapps,gesundheitsapps,1.0,0,0.0
+705,arteriosklerose,arteriosklerose,1.0,0,0.0
+706,veganismus,veganismus,1.0,0,0.0
+708,medizinische AND psychologie,"medizinische,psychologie",1.0,0,0.0
+709,laryngektomie,laryngektomie,1.0,0,0.0
+710,milch,milch,1.0,0,0.0
+711,der AND unfallchirurg,"der,unfallchirurg",1.0,0,0.0
+712,physiologie AND speckmann,"physiologie,speckmann",1.0,0,0.0
+713,carl AND rogers,"carl,roger",1.0,0,0.0
+714,gesundheitskommunikation,gesundheitskommunikation,1.0,0,0.0
+715,tcm,tcm,1.0,0,0.0
+671,mobilisation,mobilisation,1.0,0,0.0
+1,covid-19 OR sars-cov-2,"covid-19,sars-cov-2",1.0,0,0.0
+669,palliative AND pflege,"palliative,pflege",1.0,0,0.0
+594,schwieriger AND atemweg,"schwieriger,atemweg",1.0,0,0.0
+580,instagram,instagram,1.0,0,0.0
+581,ambient AND assisted AND living,"ambient,assist,live",1.0,0,0.0
+582,generation AND y,"generation,y",1.0,0,0.0
+583,psychosomatik,psychosomatik,1.0,0,0.0
+584,notfallkoffer,notfallkoffer,1.0,0,0.0
+585,soziale AND arbeit,"soziale,arbeit",1.0,0,0.0
+586,ayurveda,ayurveda,1.0,0,0.0
+587,personalmanagement,personalmanagement,1.0,0,0.0
+588,epistaxis AND hypertonie,"epistaxis,hypertonie",1.0,0,0.0
+589,wissenschaftliches AND arbeiten,"wissenschaftliche,arbeiten",1.0,0,0.0
+592,qualitative AND studie,"qualitative,studie",1.0,0,0.0
+595,eisenmangel,eisenmangel,1.0,0,0.0
+578,darmkrebs,darmkreb,1.0,0,0.0
+596,sonographie,sonographie,1.0,0,0.0
+597,next AND studie,studie,1.0,0,0.0
+598,notfallpflege,notfallpflege,1.0,0,0.0
+599,gesundheitspsychologie,gesundheitspsychologie,1.0,0,0.0
+600,wochenbettdepression,wochenbettdepression,1.0,0,0.0
+601,late AND talker,"late,talker",1.0,0,0.0
+602,humor,humor,5.0,0,0.0
+603,pathologie AND kurzlehrbuch,"pathologie,kurzlehrbuch",1.0,0,0.0
+604,narzissmus,narzissmus,1.0,0,0.0
+605,stationsleitung,stationsleitung,1.0,0,0.0
+606,mukositis,mukositis,1.0,0,0.0
+579,endometriosis AND prevalence,"endometriosis,prevalence",1.0,0,0.0
+577,osce,osce,1.0,0,0.0
+668,zvk,zvk,1.0,0,0.0
+558,physiologie AND wiesner,"physiologie,wiesner",1.0,0,0.0
+547,notfall,notfall,1.0,0,0.0
+548,behandlung AND depression,"behandlung,depression",1.0,0,0.0
+549,biologie,biologie,1.0,0,0.0
+550,kulturheidelbeeren,kulturheidelbeeren,1.0,0,0.0
+551,orem,orem,1.0,0,0.0
+552,ctg,ctg,1.0,0,0.0
+553,demenz AND pflege,"demenz,pflege",1.0,0,0.0
+554,wochenbett,wochenbett,1.0,0,0.0
+555,work-life-balance,work-life-balance,1.0,0,0.0
+556,allergie,allergie,1.0,0,0.0
+557,selbstverletzendes AND verhalten,"selbstverletzende,verhalten",1.0,0,0.0
+559,arbeitsmedizin,arbeitsmedizin,1.0,0,0.0
+575,mvz,mvz,1.0,0,0.0
+560,pflegeberufegesetz,pflegeberufegesetz,1.0,0,0.0
+561,histamindihydrochlorid,histamindihydrochlorid,1.0,0,0.0
+562,ceplene,ceplene,1.0,0,0.0
+564,humangenetik,humangenetik,1.0,0,0.0
+565,biologische AND psychologie,"biologische,psychologie",1.0,0,0.0
+566,peg,peg,1.0,0,0.0
+567,tracheotomie,tracheotomie,1.0,0,0.0
+568,geistige AND behinderung,"geistige,behinderung",1.0,0,0.0
+569,koronare AND herzkrankheit,"koronare,herzkrankheit",1.0,0,0.0
+571,professionalisierung AND pflege,"professionalisierung,pflege",1.0,0,0.0
+573,pflegetheorie,pflegetheorie,1.0,0,0.0
+607,medizinische AND mikrobiologie,"medizinische,mikrobiologie",1.0,0,0.0
+608,intermittent AND fasting,"intermittent,fast",1.0,0,0.0
+609,kopfschmerzen,kopfschmerzen,1.0,0,0.0
+654,biotechnologie,biotechnologie,1.0,0,0.0
+643,musik,musik,1.0,0,0.0
+644,kindesmisshandlung,kindesmisshandlung,1.0,0,0.0
+645,harninkontinenz,harninkontinenz,1.0,0,0.0
+646,livivo,livivo,1.0,0,0.0
+647,reproduktionsmedizin,reproduktionsmedizin,1.0,0,0.0
+648,ethik AND pflege,"ethik,pflege",1.0,0,0.0
+649,fallbuch,fallbuch,1.0,0,0.0
+650,nejm,nejm,1.0,0,0.0
+651,pathophysiologie,pathophysiologie,1.0,0,0.0
+652,gehirn,gehirn,1.0,0,0.0
+653,behinderung,behinderung,1.0,0,0.0
+655,als,al,1.0,0,0.0
+610,systemische AND beratung,"systemische,beratung",1.0,0,0.0
+657,akademisierung,akademisierung,1.0,0,0.0
+658,haufe,haufe,1.0,0,0.0
+659,genetik,genetik,1.0,0,0.0
+660,deutsche AND medizinische AND wochenschrift,"deutsche,medizinische,wochenschrift",1.0,0,0.0
+661,casemanagement,casemanagement,1.0,0,0.0
+662,pharmakologie AND und AND toxikologie,"pharmakologie,und,toxikologie",1.0,0,0.0
+663,mhealth,mhealth,1.0,0,0.0
+664,controlling,control,100.0,0,0.0
+665,hebammen,hebamman,1.0,0,0.0
+666,who,,1.0,0,0.0
+667,tuberkulose,tuberkulose,1.0,0,0.0
+642,schmerzensgeld,schmerzensgeld,1.0,0,0.0
+640,beckenendlage,beckenendlage,1.0,0,0.0
+639,interkulturelle AND kompetenz,"interkulturelle,kompetenz",1.0,0,0.0
+638,schichtdienst,schichtdienst,1.0,0,0.0
+611,therapie AND tools,"therapie,tool",1.0,0,0.0
+613,labordiagnostik,labordiagnostik,1.0,0,0.0
+614,ambient AND assisted AND living AND and AND nursing,"ambient,assist,live,nursing",1.0,0,0.0
+615,vascular AND surgery,"vascular,surgery",1.0,0,0.0
+616,promotion,promotion,13.0,0,0.0
+618,kultur AND von AND euphorbia AND pulcherrima,"kultur,von,euphorbia,pulcherrima",1.0,0,0.0
+619,psychose,psychose,1.0,0,0.0
+620,hospiz,hospiz,1.0,0,0.0
+621,arzneimittel,arzneimittel,1.0,0,0.0
+623,transkulturelle AND kompetenz,"transkulturelle,kompetenz",1.0,0,0.0
+625,krankenpflege,krankenpflege,1.0,0,0.0
+626,fibromyalgie,fibromyalgie,1.0,0,0.0
+627,triggerpunkte,triggerpunkte,1.0,0,0.0
+628,hpv AND impfung,"hpv,impfung",1.0,0,0.0
+629,systemische AND therapie,"systemische,therapie",1.0,0,0.0
+630,care,care,100.0,0,0.0
+631,ebn,ebn,1.0,0,0.0
+632,nierentransplantation,nierentransplantation,1.0,0,0.0
+633,schrotschusskrankheit,schrotschusskrankheit,1.0,0,0.0
+634,kurzlehrbuch AND anatomie,"kurzlehrbuch,anatomie",1.0,0,0.0
+635,leberzirrhose,leberzirrhose,1.0,0,0.0
+745,dysphagia,dysphagia,1.0,0,0.0
+637,osteoporose AND physiotherapie,"osteoporose,physiotherapie",1.0,0,0.0
+636,impfpflicht,impfpflicht,1.0,0,0.0
+783,heilberufe,heilberufe,1.0,0,0.0
+746,myokardinfarkt,myokardinfarkt,1.0,0,0.0
+905,tierversuche,tierversuche,1.0,0,0.0
+907,familiale AND pflege,"familiale,pflege",1.0,0,0.0
+908,gruppendynamik,gruppendynamik,1.0,0,0.0
+909,ehec AND rektum AND analkanal AND thrombose AND digestion,"ehec,rektum,analkanal,thrombose,digestion",1.0,0,0.0
+910,psychomotorik,psychomotorik,1.0,0,0.0
+911,das AND icu AND buch,"das,icu,buch",1.0,0,0.0
+913,palliative AND sedierung,"palliative,sedierung",1.0,0,0.0
+914,albinismus,albinismus,1.0,0,0.0
+915,advanced AND nursing AND practice,"advanced,nursing,practice",1.0,0,0.0
+916,pharmind,pharmind,1.0,0,0.0
+917,ase,ase,1.0,0,0.0
+918,resilience,resilience,1.0,0,0.0
+919,wissenstransfer,wissenstransfer,1.0,0,0.0
+920,therapy,therapy,100.0,0,0.0
+921,sozialraumanalyse,sozialraumanalyse,1.0,0,0.0
+922,jama,jama,1.0,0,0.0
+923,a,,1.0,0,0.0
+924,kurkuma,kurkuma,1.0,0,0.0
+925,viola AND wittrockiana AND hybriden,"viola,wittrockiana,hybriden",1.0,0,0.0
+926,manchester AND triage AND system,"manchester,triage,system",1.0,0,0.0
+927,frozen AND shoulder,"freeze,shoulder",1.0,0,0.0
+928,praxisbegleitung,praxisbegleitung,1.0,0,0.0
+929,humor AND in AND der AND pflege,"humor,der,pflege",1.0,0,0.0
+930,zahnerhaltung,zahnerhaltung,1.0,0,0.0
+931,tiertherapie,tiertherapie,1.0,0,0.0
+932,personal,personal,3.0,0,0.0
+906,locked AND in AND syndrom,"lock,syndrom",1.0,0,0.0
+904,barthel AND index,"barthel,index",1.0,0,0.0
+872,i AND care AND pflege,"care,pflege",1.0,0,0.0
+903,ti,ti,1.0,0,0.0
+874,sectio,sectio,1.0,0,0.0
+875,knie AND tep,"knie,tep",1.0,0,0.0
+876,geschichte AND der AND medizin,"geschichte,der,medizin",1.0,0,0.0
+877,basale AND stimmulation,"basale,stimmulation",1.0,0,0.0
+878,pde-5,pde-5,1.0,0,0.0
+879,kapata AND arkeologi,"kapata,arkeologi",1.0,0,0.0
+880,brustkrebs AND schmerz,"brustkreb,schmerz",1.0,0,0.0
+882,lax AND vox,"lax,vox",1.0,0,0.0
+883,kurzlehrbuch AND physiologie,"kurzlehrbuch,physiologie",1.0,0,0.0
+884,pflegepersonal,pflegepersonal,1.0,0,0.0
+885,pest,pest,1.0,0,0.0
+886,physiotherapie AND bei AND multipler AND sklerose,"physiotherapie,bei,multipler,sklerose",1.0,0,0.0
+887,ambient AND assisted AND living AND and AND caring,"ambient,assist,live,care",1.0,0,0.0
+888,endokrinologie,endokrinologie,1.0,0,0.0
+889,validation AND demenz,"validation,demenz",1.0,0,0.0
+890,haut,haut,1.0,0,0.0
+891,khk,khk,1.0,0,0.0
+892,gewaltfreie AND kommunikation,"gewaltfreie,kommunikation",1.0,0,0.0
+894,nidcap,nidcap,1.0,0,0.0
+895,buteyko,buteyko,1.0,0,0.0
+896,blasensprung AND transport,"blasensprung,transport",1.0,0,0.0
+897,phantomschmerz,phantomschmerz,1.0,0,0.0
+898,geschlechterrolle AND erziehung,"geschlechterrolle,erziehung",1.0,0,0.0
+901,onkologie AND pflege,"onkologie,pflege",1.0,0,0.0
+902,medizincontrolling,medizincontrolle,1.0,0,0.0
+933,osteoporose AND diphosphonate AND femur AND ovarektomie,"osteoporose,diphosphonate,femur,ovarektomie",1.0,0,0.0
+934,wissensmanagement,wissensmanagement,1.0,0,0.0
+935,neurotraining,neurotraining,1.0,0,0.0
+936,stigmatisierung,stigmatisierung,1.0,0,0.0
+969,gesundheit AND digital,"gesundheit,digital",1.0,0,0.0
+970,prosthetic AND joint AND infection AND surgical,"prosthetic,joint,infection,surgical",1.0,0,0.0
+971,sensorimotor AND dyslexia,"sensorimotor,dyslexia",1.0,0,0.0
+972,fettstoffwechsel,fettstoffwechsel,1.0,0,0.0
+973,bauchlage,bauchlage,1.0,0,0.0
+974,herold AND innere,"herold,innere",1.0,0,0.0
+975,anatomie AND ausbildung,"anatomie,ausbildung",1.0,0,0.0
+976,berufliche AND rehabilitation,"berufliche,rehabilitation",1.0,0,0.0
+977,muttermilch,muttermilch,1.0,0,0.0
+980,krisenintervention,krisenintervention,1.0,0,0.0
+981,duale AND reihe AND biochemie,"duale,reihe,biochemie",1.0,0,0.0
+982,integrative AND validation,"integrative,validation",1.0,0,0.0
+983,leistenhernie,leistenhernie,1.0,0,0.0
+984,haccp,haccp,1.0,0,0.0
+985,fatique,fatique,1.0,0,0.0
+986,icd-10,icd-10,1.0,0,0.0
+987,zeolith,zeolith,1.0,0,0.0
+988,breastfeeding,breastfeed,1.0,0,0.0
+989,alzheimer AND demenz,"alzheimer,demenz",1.0,0,0.0
+991,kinderheilkunde,kinderheilkunde,1.0,0,0.0
+993,umwelt AND gebaeude AND environmentally AND friendly AND building,"umwelt,gebaeude,environmentally,friendly,building",1.0,0,0.0
+994,neuropsychologie,neuropsychologie,1.0,0,0.0
+995,ursonorm,ursonorm,1.0,0,0.0
+996,zusammenhang AND sozialer AND schichtunterschiede AND und AND adipositas,"zusammenhang,sozialer,schichtunterschiede,und,adiposita",1.0,0,0.0
+998,evaluation,evaluation,65.0,0,0.0
+968,karow,karow,1.0,0,0.0
+967,springendes gen,"springende,gen",1.0,0,0.0
+966,uv AND strahlung AND nutzpflanzen,"uv,strahlung,nutzpflanzen",1.0,0,0.0
+949,hanf,hanf,1.0,0,0.0
+937,krankenversicherung,krankenversicherung,1.0,0,0.0
+938,gruppentherapie,gruppentherapie,1.0,0,0.0
+940,cochrane,cochrane,1.0,0,0.0
+941,lehrergesundheit,lehrergesundheit,1.0,0,0.0
+942,gerontopsychiatrie,gerontopsychiatrie,1.0,0,0.0
+943,lungenkrebs,lungenkrebs,1.0,0,0.0
+944,praxis AND der AND schlafmedizin,"praxis,der,schlafmedizin",1.0,0,0.0
+945,altersarmut,altersarmut,1.0,0,0.0
+946,atmen,atman,1.0,0,0.0
+947,medizinethik,medizinethik,1.0,0,0.0
+948,demenzdorf,demenzdorf,1.0,0,0.0
+950,kooperatives AND lernen,"kooperative,lernen",1.0,0,0.0
+965,quantiferon,quantiferon,1.0,0,0.0
+951,sars AND cov AND 2,"sar,cov,2",1.0,0,0.0
+952,arzneimitteltherapiesicherheit,arzneimitteltherapiesicherheit,1.0,0,0.0
+953,lehrbuch AND histologie,"lehrbuch,histologie",1.0,0,0.0
+954,invasive AND pflanzen,"invasive,pflanzen",1.0,0,0.0
+956,taschenlehrbuch AND histologie,"taschenlehrbuch,histologie",1.0,0,0.0
+958,trink AND dich AND vital AND und AND gesund,"trink,dich,vital,und,gesund",1.0,0,0.0
+960,antibiotic* AND machin* AND learn*,"antibiotic,machin,learn",1.0,0,0.0
+961,anatomie AND des AND harnsystems,"anatomie,de,harnsystem",1.0,0,0.0
+962,qo,qo,1.0,0,0.0
+963,chondropatia AND patellae,"chondropatia,patellae",1.0,0,0.0
+964,hypnose,hypnose,1.0,0,0.0
+873,frage AND und AND antwort,"frage,und,antwort",1.0,0,0.0
+871,abschwellung,abschwellung,1.0,0,0.0
+748,zeitarbeit,zeitarbeit,1.0,0,0.0
+780,kinder AND und AND jugendpsychiatrie,"kinder,und,jugendpsychiatrie",1.0,0,0.0
+782,darm,darm,1.0,0,0.0
+545,lagerung,lagerung,1.0,0,0.0
+785,medizinische AND versorgungszentren,"medizinische,versorgungszentren",1.0,0,0.0
+786,polyneuropathie,polyneuropathie,1.0,0,0.0
+787,stammzellen,stammzellen,1.0,0,0.0
+788,kompetenz,kompetenz,1.0,0,0.0
+789,nature,nature,1.0,0,0.0
+790,physiologie AND silbernagl,"physiologie,silbernagl",1.0,0,0.0
+791,chronische AND erkrankungen,"chronische,erkrankungen",1.0,0,0.0
+792,kinderchirurgie,kinderchirurgie,1.0,0,0.0
+793,demenz AND 'a,demenz,1.0,0,0.0
+794,ethikkomitee AND kinder,"ethikkomitee,kinder",1.0,0,0.0
+796,lehrbuch AND der AND physiologie,"lehrbuch,der,physiologie",1.0,0,0.0
+797,guolin AND qigong,"guolin,qigong",1.0,0,0.0
+798,backpain,backpain,1.0,0,0.0
+799,physik AND klima,"physik,klima",1.0,0,0.0
+801,wiesner AND physiologie,"wiesner,physiologie",1.0,0,0.0
+802,schmerzerfassung,schmerzerfassung,1.0,0,0.0
+803,transition,transition,1.0,0,0.0
+804,vorhofflimmern,vorhofflimmern,1.0,0,0.0
+805,legasthenie,legasthenie,1.0,0,0.0
+806,op AND management,"op,management",1.0,0,0.0
+807,kooperation,kooperation,1.0,0,0.0
+808,digitalisierung AND gesundheitswesen,"digitalisierung,gesundheitswesen",1.0,0,0.0
+809,sbar,sbar,1.0,0,0.0
+781,knie,knie,1.0,0,0.0
+779,ulcus AND cruris,"ulcus,cruris",1.0,0,0.0
+870,fasten,fasten,1.0,0,0.0
+778,google,google,1.0,0,0.0
+749,milestone AND transition,"milestone,transition",1.0,0,0.0
+751,koffein,koffein,1.0,0,0.0
+752,dammschutz,dammschutz,1.0,0,0.0
+753,spiraldynamik,spiraldynamik,1.0,0,0.0
+754,isolation,isolation,1.0,0,0.0
+755,kurzzeitpflege,kurzzeitpflege,1.0,0,0.0
+756,infektiologie,infektiologie,1.0,0,0.0
+758,kurzlehrbuch AND innere AND medizin,"kurzlehrbuch,innere,medizin",1.0,0,0.0
+759,bedsharing OR familienbett,"bedshare,familienbett",1.0,0,0.0
+761,simulation,simulation,1.0,0,0.0
+762,ressourcenaktivierung,ressourcenaktivierung,1.0,0,0.0
+763,homeoffice,homeoffice,1.0,0,0.0
+764,borreliose,borreliose,1.0,0,0.0
+765,kommunikation AND in AND der AND pflege,"kommunikation,der,pflege",1.0,0,0.0
+766,fotoatlas AND anatomie,"fotoatlas,anatomie",1.0,0,0.0
+767,personalbindung,personalbindung,1.0,0,0.0
+768,burnout AND in AND der AND pflege,"burnout,der,pflege",1.0,0,0.0
+769,nutri AND score,"nutri,score",1.0,0,0.0
+770,tms,tms,1.0,0,0.0
+772,drosten,drosten,1.0,0,0.0
+773,delir AND intensivstation AND screening,"delir,intensivstation,screening",1.0,0,0.0
+774,amnog,amnog,1.0,0,0.0
+775,wohlbefinden,wohlbefinden,1.0,0,0.0
+776,partizipative AND entscheidungsfindung,"partizipative,entscheidungsfindung",1.0,0,0.0
+777,lehrbuch AND der AND verhaltenstherapie,"lehrbuch,der,verhaltenstherapie",1.0,0,0.0
+810,forensische AND psychiatrie,"forensische,psychiatrie",1.0,0,0.0
+811,cmd,cmd,1.0,0,0.0
+812,datenschutz,datenschutz,1.0,0,0.0
+813,e-learning,e-learning,1.0,0,0.0
+843,pflegeethik,pflegeethik,1.0,0,0.0
+844,herzinfakt,herzinfakt,1.0,0,0.0
+845,soja,soja,1.0,0,0.0
+846,vegetarismus,vegetarismus,1.0,0,0.0
+847,gender,gender,1.0,0,0.0
+848,contergan,contergan,1.0,0,0.0
+849,kompressionstherapie,kompressionstherapie,1.0,0,0.0
+850,grundlagen AND der AND ergotherapie,"grundlagen,der,ergotherapie",1.0,0,0.0
+851,vitalzeichen,vitalzeichen,1.0,0,0.0
+852,ms,ms,1.0,0,0.0
+853,uptodate,uptodate,1.0,0,0.0
+854,prostata,prostata,1.0,0,0.0
+855,mbsr,mbsr,1.0,0,0.0
+856,endspurt AND physiologie,"endspurt,physiologie",1.0,0,0.0
+858,pcr,pcr,1.0,0,0.0
+860,harrison,harrison,1.0,0,0.0
+861,pflegekompetenz,pflegekompetenz,1.0,0,0.0
+862,mts,mts,1.0,0,0.0
+863,bildgebende AND verfahren,"bildgebende,verfahren",1.0,0,0.0
+864,zwang,zwang,1.0,0,0.0
+865,medienkompetenz,medienkompetenz,1.0,0,0.0
+866,neuroradiologie,neuroradiologie,1.0,0,0.0
+867,kinderzahnheilkunde,kinderzahnheilkunde,1.0,0,0.0
+868,tagespflege,tagespflege,1.0,0,0.0
+869,lazarus,lazarus,1.0,0,0.0
+842,didaktik,didaktik,1.0,0,0.0
+841,lunge,lunge,1.0,0,0.0
+840,f&w,f&w,1.0,0,0.0
+826,morbus AND crohn AND therapy,"morbus,crohn,therapy",1.0,0,0.0
+814,progressive AND muskelentspannung,"progressive,muskelentspannung",1.0,0,0.0
+815,kompressionsverband,kompressionsverband,1.0,0,0.0
+816,fragebogen,fragebogen,1.0,0,0.0
+817,spinale AND muskelatrophie,"spinale,muskelatrophie",1.0,0,0.0
+818,dysarthrie,dysarthrie,1.0,0,0.0
+819,gastroenterologie,gastroenterologie,1.0,0,0.0
+820,nanda,nanda,1.0,0,0.0
+821,dekubitus AND schmerzensgeld,"dekubitus,schmerzensgeld",1.0,0,0.0
+822,soziale AND schichtunterschiede AND adipositas,"soziale,schichtunterschiede,adiposita",1.0,0,0.0
+823,bienen,bienen,1.0,0,0.0
+825,betriebliches AND eingliederungsmanagement,"betriebliche,eingliederungsmanagement",1.0,0,0.0
+827,intensivkurs AND psychiatrie AND und AND psychotherapie,"intensivkur,psychiatrie,und,psychotherapie",1.0,0,0.0
+839,das AND gesundheitswesen,"das,gesundheitswesen",1.0,0,0.0
+828,studien,studien,1.0,0,0.0
+829,hausgeburt,hausgeburt,1.0,0,0.0
+830,bundesgesundheitsblatt,bundesgesundheitsblatt,1.0,0,0.0
+831,magnetkrankenhaus,magnetkrankenhaus,1.0,0,0.0
+832,alter,alter,1.0,0,0.0
+833,mex AND klinik,"mex,klinik",1.0,0,0.0
+834,adipositas AND soziale AND schicht,"adiposita,soziale,schicht",1.0,0,0.0
+835,ausfallmanagement,ausfallmanagement,1.0,0,0.0
+836,fallbesprechung,fallbesprechung,1.0,0,0.0
+837,pflegeroboter,pflegeroboter,1.0,0,0.0
+838,empathie,empathie,1.0,0,0.0
+546,fallbuch AND chirurgie,"fallbuch,chirurgie",1.0,0,0.0
+501,e-health,e-health,1.0,0,0.0
+544,palliativ AND care,"palliativ,care",1.0,0,0.0
+218,reanimation,reanimation,1.0,0,0.0
+187,altenpflege,altenpflege,1.0,0,0.0
+188,klimawandel AND in AND china,"klimawandel,china",1.0,0,0.0
+189,corona AND virus,"corona,virus",1.0,0,0.0
+190,krankenhaus,krankenhaus,1.0,0,0.0
+191,palliativ,palliativ,1.0,0,0.0
+192,rheuma,rheuma,1.0,0,0.0
+193,handelsliberalisierung,handelsliberalisierung,1.0,0,0.0
+194,apoplex,apoplex,1.0,0,0.0
+195,superheilmittel AND vitamin AND c,"superheilmittel,vitamin,c",1.0,0,0.0
+196,covid19,covid19,1.0,0,0.0
+197,schmerzen,schmerzen,1.0,0,0.0
+200,gewalt AND in AND der AND pflege,"gewalt,der,pflege",1.0,0,0.0
+201,immunologie,immunologie,1.0,0,0.0
+202,benkert AND hippius,"benkert,hippius",1.0,0,0.0
+203,physiologie AND des AND menschen,"physiologie,des,menschen",1.0,0,0.0
+204,polytrauma,polytrauma,1.0,0,0.0
+205,mrsa,mrsa,1.0,0,0.0
+206,neurodermitis,neurodermitis,1.0,0,0.0
+207,springendes AND gen,"springende,gen",1.0,0,0.0
+208,suzuki AND coupling,"suzuki,coupling",1.0,0,0.0
+210,intensivmedizin,intensivmedizin,1.0,0,0.0
+211,pflegewissenschaft,pflegewissenschaft,1.0,0,0.0
+212,mikrobiom,mikrobiom,1.0,0,0.0
+214,pflegemanagement,pflegemanagement,1.0,0,0.0
+215,osteoporose,osteoporose,1.0,0,0.0
+186,pflegeprozess,pflegeprozess,1.0,0,0.0
+185,herold AND innere AND medizin,"herold,innere,medizin",1.0,0,0.0
+184,kardiologie,kardiologie,1.0,0,0.0
+169,stillen,stillen,1.0,0,0.0
+157,medizin,medizin,1.0,0,0.0
+158,sturz,sturz,1.0,0,0.0
+159,ambient AND assisted AND living AND nursing,"ambient,assist,live,nursing",1.0,0,0.0
+160,thrombose,thrombose,1.0,0,0.0
+161,praxisanleiter,praxisanleiter,1.0,0,0.0
+162,ambient AND assisted AND living AND caring,"ambient,assist,live,care",1.0,0,0.0
+163,john AND smith,"john,smith",1.0,0,0.0
+164,chirurgie,chirurgie,1.0,0,0.0
+165,elektronische AND patientenakte,"elektronische,patientenakte",1.0,0,0.0
+166,achtsamkeit,achtsamkeit,1.0,0,0.0
+168,hygiene,hygiene,23.0,0,0.0
+170,entlassmanagement,entlassmanagement,1.0,0,0.0
+183,ethik,ethik,1.0,0,0.0
+171,pflegeausbildung,pflegeausbildung,1.0,0,0.0
+172,pflegenotstand,pflegenotstand,1.0,0,0.0
+173,neonatologie,neonatologie,1.0,0,0.0
+174,schwangerschaft,schwangerschaft,1.0,0,0.0
+175,musiktherapie,musiktherapie,1.0,0,0.0
+176,jurnal AND kesehatan AND komunitas,"jurnal,kesehatan,komunita",1.0,0,0.0
+177,medizinische AND statistik,"medizinische,statistik",1.0,0,0.0
+178,yoga,yoga,2.0,0,0.0
+180,sucht,sucht,1.0,0,0.0
+181,arthrose,arthrose,1.0,0,0.0
+182,bobath,bobath,1.0,0,0.0
+216,herold,herold,1.0,0,0.0
+219,ekg,ekg,1.0,0,0.0
+155,epilepsie,epilepsie,1.0,0,0.0
+220,arbeitszufriedenheit,arbeitszufriedenheit,1.0,0,0.0
+253,dbive-42 AND be AND fbef-dbi-5,"dbive-42,fbef-dbi-5",1.0,0,0.0
+255,blut,blut,1.0,0,0.0
+256,obstipation,obstipation,1.0,0,0.0
+257,work AND life AND balance,"work,life,balance",1.0,0,0.0
+260,expertenstandard,expertenstandard,1.0,0,0.0
+261,zahnmedizin,zahnmedizin,1.0,0,0.0
+262,augenheilkunde,augenheilkunde,1.0,0,0.0
+263,bandscheibenvorfall,bandscheibenvorfall,1.0,0,0.0
+264,social media,"social,medium",61.0,0,0.0
+265,virtual AND reality,"virtual,reality",1.0,0,0.0
+266,chemie,chemie,1.0,0,0.0
+267,die AND schwester AND der AND pfleger,"die,schwester,der,pfleger",1.0,0,0.0
+268,onkologische AND pflege,"onkologische,pflege",1.0,0,0.0
+269,kunsttherapie,kunsttherapie,1.0,0,0.0
+270,problemorientiertes AND lernen,"problemorientierte,lernen",1.0,0,0.0
+271,nachhaltigkeit,nachhaltigkeit,1.0,0,0.0
+272,schichtarbeit,schichtarbeit,1.0,0,0.0
+273,masern AND impfen,"masern,impfen",1.0,0,0.0
+275,gesundheitliche AND ungleichheit,"gesundheitliche,ungleichheit",1.0,0,0.0
+276,icd AND 10,"icd,10",1.0,0,0.0
+277,hno,hno,1.0,0,0.0
+278,hebamme,hebamme,1.0,0,0.0
+279,ptbs,ptbs,1.0,0,0.0
+280,spiegeltherapie,spiegeltherapie,1.0,0,0.0
+281,wachkoma,wachkoma,1.0,0,0.0
+252,nutrition,nutrition,14.0,0,0.0
+251,antibiotika,antibiotika,1.0,0,0.0
+250,rettungsdienst,rettungsdienst,1.0,0,0.0
+233,ambulante AND pflege,"ambulante,pflege",1.0,0,0.0
+221,neurochirurgie,neurochirurgie,1.0,0,0.0
+222,intensivpflege,intensivpflege,1.0,0,0.0
+223,patientensicherheit,patientensicherheit,1.0,0,0.0
+224,geriatrie,geriatrie,1.0,0,0.0
+225,depressionen,depressionen,1.0,0,0.0
+226,thieme,thieme,1.0,0,0.0
+228,herzstillstand,herzstillstand,1.0,0,0.0
+229,sport,sport,1.0,0,0.0
+230,akademisierung AND pflege,"akademisierung,pflege",1.0,0,0.0
+231,pflege AND heute,"pflege,heute",1.0,0,0.0
+232,inklusion,inklusion,1.0,0,0.0
+234,out-of-hospital AND birth,"out-of-hospital,birth",1.0,0,0.0
+249,statistik,statistik,1.0,0,0.0
+235,mikrobiologie,mikrobiologie,1.0,0,0.0
+236,mitarbeitermotivation,mitarbeitermotivation,1.0,0,0.0
+237,bezugspflege,bezugspflege,1.0,0,0.0
+238,psychotherapie,psychotherapie,1.0,0,0.0
+240,softdrink,softdrink,1.0,0,0.0
+241,patricia AND benner,"patricia,benner",1.0,0,0.0
+242,mobbing,mob,1.0,0,0.0
+243,dissertation,dissertation,1.0,0,0.0
+244,herzchirurgie,herzchirurgie,1.0,0,0.0
+245,aphasie AND therapie,"aphasie,therapie",1.0,0,0.0
+246,bluthochdruck,bluthochdruck,1.0,0,0.0
+156,dialyse,dialyse,1.0,0,0.0
+154,taschenatlas AND physiologie,"taschenatla,physiologie",1.0,0,0.0
+284,hpv,hpv,1.0,0,0.0
+86,cancer,cancer,1.0,0,0.0
+45,corona,corona,1.0,0,0.0
+47,physiologie,physiologie,1.0,0,0.0
+48,brustkrebs,brustkreb,1.0,0,0.0
+49,delir,delir,1.0,0,0.0
+53,bienensterben,bienensterben,1.0,0,0.0
+55,schlaganfallpatienten AND zeitfenster,"schlaganfallpatienten,zeitfenster",1.0,0,0.0
+56,tlif AND cage,"tlif,cage",1.0,0,0.0
+57,covid AND 19,"covid,19",1.0,0,0.0
+58,quantitative AND studie AND pflege,"quantitative,studie,pflege",1.0,0,0.0
+60,organspende,organspende,1.0,0,0.0
+62,crispr cas,"crispr,cas",1.0,0,0.0
+63,herzinfarkt,herzinfarkt,1.0,0,0.0
+66,anatomie,anatomie,1.0,0,0.0
+68,case AND management,"case,management",1.0,0,0.0
+69,climate change,"climate,change",11.0,0,0.0
+70,hpv-impfung,hpv-impfung,1.0,0,0.0
+72,organic farming,"organic,farming",1.0,0,0.0
+75,adipositas,adiposita,1.0,0,0.0
+77,covid,covid,1.0,0,0.0
+78,resilienz,resilienz,1.0,0,0.0
+79,schlaganfall,schlaganfall,1.0,0,0.0
+80,physiotherapie,physiotherapie,1.0,0,0.0
+82,telemedizin,telemedizin,1.0,0,0.0
+83,praxisanleitung,praxisanleitung,1.0,0,0.0
+84,autismus,autismus,1.0,0,0.0
+44,gesundheit,gesundheit,1.0,0,0.0
+43,biochemie,biochemie,1.0,0,0.0
+42,niedersa* OR brem*,"niedersa,brem",1.0,0,0.0
+25,crispr AND cas,"crispr,cas",1.0,0,0.0
+3,biodiversity,biodiversity,1.0,0,0.0
+7,glyphosate,glyphosate,1.0,0,0.0
+9,bioenergy,bioenergy,1.0,0,0.0
+10,carcinogenes,carcinogene,1.0,0,0.0
+11,microplastics,microplastic,1.0,0,0.0
+12,nanomaterial,nanomaterial,1.0,0,0.0
+15,schizophrenie,schizophrenie,1.0,0,0.0
+17,rubisco,rubisco,1.0,0,0.0
+18,breast AND cancer,"breast,cancer",1.0,0,0.0
+21,food AND allergy,"food,allergy",1.0,0,0.0
+24,organic AND farming,"organic,farming",1.0,0,0.0
+27,ecosystem AND services,"ecosystem,service",1.0,0,0.0
+41,diabetes,diabete,1.0,0,0.0
+29,vegan AND diet,"vegan,diet",1.0,0,0.0
+30,hpv AND vaccination,"hpv,vaccination",1.0,0,0.0
+32,colony AND collapse AND disorder,"colony,collapse,disorder",1.0,0,0.0
+33,trade AND impacts,"trade,impact",1.0,0,0.0
+34,jumping AND gene,"jump,gene",1.0,0,0.0
+35,demenz,demenz,1.0,0,0.0
+36,mukoviszidose,mukoviszidose,1.0,0,0.0
+37,covid-19,covid-19,1.0,0,0.0
+38,pflege,pflege,1.0,0,0.0
+39,dekubitus,dekubitus,1.0,0,0.0
+40,sars-cov-2,sars-cov-2,1.0,0,0.0
+85,gesundheit AND ungleichheit,"gesundheit,ungleichheit",1.0,0,0.0
+87,copd,copd,1.0,0,0.0
+153,angst,angst,1.0,0,0.0
+88,osteopathie,osteopathie,1.0,0,0.0
+124,test,test,48.0,0,0.0
+125,transitions AND end AND of AND life,"transition,end,life",1.0,0,0.0
+126,vegan,vegan,1.0,0,0.0
+127,kommunikation,kommunikation,1.0,0,0.0
+128,radiologie,radiologie,1.0,0,0.0
+129,last AND year AND of AND life,"year,life",1.0,0,0.0
+130,pflegevisite,pflegevisite,1.0,0,0.0
+131,pathologie,pathologie,1.0,0,0.0
+134,gesundheitskompetenz,gesundheitskompetenz,1.0,0,0.0
+135,pulvinaria,pulvinaria,1.0,0,0.0
+137,schlaf,schlaf,1.0,0,0.0
+138,pharmakologie,pharmakologie,1.0,0,0.0
+139,trauma,trauma,1.0,0,0.0
+141,soziale AND schicht AND adipositas,"soziale,schicht,adiposita",1.0,0,0.0
+142,thromboseprophylaxe,thromboseprophylaxe,1.0,0,0.0
+143,gesundheitskompetenz AND health AND literacy,"gesundheitskompetenz,health,literacy",1.0,0,0.0
+144,sterbehilfe,sterbehilfe,1.0,0,0.0
+145,mitarbeiterbindung,mitarbeiterbindung,1.0,0,0.0
+146,karzinogen,karzinogen,1.0,0,0.0
+147,tierschutz,tierschutz,1.0,0,0.0
+148,bioenergie,bioenergie,1.0,0,0.0
+149,beatmung,beatmung,1.0,0,0.0
+150,alzheimer,alzheimer,21.0,0,0.0
+151,mex,mex,1.0,0,0.0
+152,diabetes AND mellitus,"diabete,mellitus",1.0,0,0.0
+122,mikroplastik,mikroplastik,1.0,0,0.0
+121,aphasie,aphasie,1.0,0,0.0
+120,psychiatrie,psychiatrie,1.0,0,0.0
+102,krebs,krebs,1.0,0,0.0
+89,prometheus,prometheus,1.0,0,0.0
+91,adhs,adhs,1.0,0,0.0
+92,schmerz,schmerz,1.0,0,0.0
+93,dekubitusprophylaxe,dekubitusprophylaxe,1.0,0,0.0
+94,multiple AND sklerose,"multiple,sklerose",1.0,0,0.0
+95,glyphosat,glyphosat,1.0,0,0.0
+96,klimawandel,klimawandel,1.0,0,0.0
+97,ergotherapie,ergotherapie,1.0,0,0.0
+98,reaktorkatastrophe,reaktorkatastrophe,1.0,0,0.0
+99,histologie,histologie,1.0,0,0.0
+101,basale AND stimulation,"basale,stimulation",1.0,0,0.0
+103,betriebliches AND gesundheitsmanagement,"betriebliche,gesundheitsmanagement",1.0,0,0.0
+119,zoonose,zoonose,1.0,0,0.0
+104,neuroanatomie,neuroanatomie,1.0,0,0.0
+105,innere AND medizin,"innere,medizin",1.0,0,0.0
+106,neurologie,neurologie,1.0,0,0.0
+109,nahrungsmittelintoleranz,nahrungsmittelintoleranz,1.0,0,0.0
+110,notaufnahme,notaufnahme,1.0,0,0.0
+112,krankenhaushygiene,krankenhaushygiene,1.0,0,0.0
+114,herz,herz,1.0,0,0.0
+115,guolin,guolin,1.0,0,0.0
+116,ambient AND assisted AND living AND care,"ambient,assist,live,care",1.0,0,0.0
+117,herzinsuffizienz,herzinsuffizienz,1.0,0,0.0
+118,onkologie,onkologie,1.0,0,0.0
+282,empowerment,empowerment,1.0,0,0.0
+285,projektmanagement,projektmanagement,1.0,0,0.0
+543,soziale AND isolation,"soziale,isolation",1.0,0,0.0
+480,physik,physik,1.0,0,0.0
+449,endotracheales AND absaugen,"endotracheale,absaugen",1.0,0,0.0
+450,bonding AND stillen,"bonding,stillen",1.0,0,0.0
+451,intelligenzminderung,intelligenzminderung,1.0,0,0.0
+452,schulgesundheitspflege,schulgesundheitspflege,1.0,0,0.0
+453,medizinrecht,medizinrecht,1.0,0,0.0
+454,humoralmedizin,humoralmedizin,1.0,0,0.0
+455,innere AND medizin AND herold,"innere,medizin,herold",1.0,0,0.0
+456,krankenhausmanagement,krankenhausmanagement,1.0,0,0.0
+457,akademisierung AND der AND pflege,"akademisierung,der,pflege",1.0,0,0.0
+458,schluss AND mit AND sodbrennen,"schluss,mit,sodbrennen",1.0,0,0.0
+459,therapeutisches AND klettern,"therapeutische,klettern",1.0,0,0.0
+460,embryologie,embryologie,1.0,0,0.0
+462,dsm AND 5,"dsm,5",1.0,0,0.0
+465,einarbeitung,einarbeitung,1.0,0,0.0
+467,lbh589 AND klein,"lbh589,klein",1.0,0,0.0
+468,wundmanagement,wundmanagement,1.0,0,0.0
+469,gesundheitswesen,gesundheitswesen,1.0,0,0.0
+470,herzschrittmacher,herzschrittmacher,1.0,0,0.0
+471,ards,ard,1.0,0,0.0
+472,amyotrophe AND lateralsklerose,"amyotrophe,lateralsklerose",1.0,0,0.0
+473,scham,scham,1.0,0,0.0
+474,delir AND intensivstation,"delir,intensivstation",1.0,0,0.0
+476,intervallfasten,intervallfasten,1.0,0,0.0
+477,zivilisationskrankheit,zivilisationskrankheit,1.0,0,0.0
+478,selbstmanagement,selbstmanagement,1.0,0,0.0
+448,striebel,striebel,1.0,0,0.0
+447,antonovsky,antonovsky,1.0,0,0.0
+446,kreuzbandriss,kreuzbandriss,1.0,0,0.0
+431,digitalisierung AND pflege,"digitalisierung,pflege",1.0,0,0.0
+419,low AND back AND pain AND physiotherapy,"low,pain,physiotherapy",1.0,0,0.0
+420,qualitative AND forschung,"qualitative,forschung",1.0,0,0.0
+421,epidemiologie,epidemiologie,1.0,0,0.0
+422,alkohol,alkohol,1.0,0,0.0
+424,leber,leber,1.0,0,0.0
+425,hirntod,hirntod,1.0,0,0.0
+426,sprachtherapie,sprachtherapie,1.0,0,0.0
+427,pflegediagnosen,pflegediagnosen,1.0,0,0.0
+428,pubmed,pubme,1.0,0,0.0
+429,allgemeinmedizin,allgemeinmedizin,1.0,0,0.0
+430,pflegepersonaluntergrenzen,pflegepersonaluntergrenzen,1.0,0,0.0
+432,psychische AND gesundheit,"psychische,gesundheit",1.0,0,0.0
+445,mrt,mrt,1.0,0,0.0
+433,fieber,fieber,1.0,0,0.0
+434,skoliose,skoliose,1.0,0,0.0
+435,beratung,beratung,1.0,0,0.0
+436,selbstwirksamkeit,selbstwirksamkeit,1.0,0,0.0
+437,burn AND out,burn,1.0,0,0.0
+439,1256-dibenzanthracene,1256-dibenzanthracene,1.0,0,0.0
+440,kinder AND psychisch AND kranker AND eltern,"kinder,psychisch,kranker,eltern",1.0,0,0.0
+441,prostatakrebs,prostatakrebs,1.0,0,0.0
+442,onboarding,onboarde,1.0,0,0.0
+443,medizinische AND psychologie AND und AND soziologie,"medizinische,psychologie,und,soziologie",1.0,0,0.0
+444,tdcs,tdcs,1.0,0,0.0
+479,change AND management,"change,management",1.0,0,0.0
+481,beipackzettel,beipackzettel,1.0,0,0.0
+417,medizintechnik,medizintechnik,1.0,0,0.0
+482,kaiserschnitt,kaiserschnitt,1.0,0,0.0
+514,one AND minute AND wonder,"minute,wonder",1.0,0,0.0
+515,nudging,nudge,1.0,0,0.0
+516,geburtshilfe,geburtshilfe,1.0,0,0.0
+517,mayring,mayring,1.0,0,0.0
+518,skills AND lab,"skill,lab",1.0,0,0.0
+519,ehealth,ehealth,1.0,0,0.0
+520,atemstimulierende AND einreibung,"atemstimulierende,einreibung",1.0,0,0.0
+521,tracheostoma,tracheostoma,1.0,0,0.0
+522,kommunikation AND pflege,"kommunikation,pflege",1.0,0,0.0
+523,ethik AND in AND der AND medizin,"ethik,der,medizin",1.0,0,0.0
+526,telemonitoring,telemonitore,1.0,0,0.0
+527,soziale AND ungleichheit AND und AND psychische AND gesundheit,"soziale,ungleichheit,und,psychische,gesundheit",1.0,0,0.0
+528,/etc/passwd,/etc/passwd,1.0,0,0.0
+529,chronischer AND schmerz,"chronischer,schmerz",1.0,0,0.0
+530,social AND media,"social,medium",1.0,0,0.0
+531,pflegetheorien,pflegetheorien,1.0,0,0.0
+532,osteopathy,osteopathy,1.0,0,0.0
+533,medikamente,medikamente,1.0,0,0.0
+534,http//www.google.com,http//www.google.com,1.0,0,0.0
+535,systematic AND review AND protocol,"systematic,review,protocol",1.0,0,0.0
+537,schulter,schulter,1.0,0,0.0
+538,diabetis,diabetis,1.0,0,0.0
+539,sobotta,sobotta,1.0,0,0.0
+540,palliativpflege,palliativpflege,1.0,0,0.0
+542,doktorarbeit,doktorarbeit,1.0,0,0.0
+513,asthma AND bronchiale,"asthma,bronchiale",1.0,0,0.0
+512,schmerzwahrnehmung,schmerzwahrnehmung,1.0,0,0.0
+511,prokrastination,prokrastination,1.0,0,0.0
+495,hygiene AND im AND patientenhaushalt,"hygiene,m,patientenhaushalt",1.0,0,0.0
+483,autism,autism,1.0,0,0.0
+485,schwangerschaftsabbruch,schwangerschaftsabbruch,1.0,0,0.0
+486,verhaltenstherapie,verhaltenstherapie,1.0,0,0.0
+487,rechtsmedizin,rechtsmedizin,1.0,0,0.0
+488,rauchen,rauchen,1.0,0,0.0
+489,parodontologie,parodontologie,1.0,0,0.0
+490,psychoedukation,psychoedukation,1.0,0,0.0
+491,kurzlehrbuch AND pathologie,"kurzlehrbuch,pathologie",1.0,0,0.0
+492,neurofeedback,neurofeedback,1.0,0,0.0
+493,wunde,wunde,1.0,0,0.0
+494,recovery,recovery,4.0,0,0.0
+496,prosthetic AND joint AND infection AND diagnose AND method,"prosthetic,joint,infection,diagnose,method",1.0,0,0.0
+510,advance AND care AND planning,"advance,care,plan",1.0,0,0.0
+497,crispr,crispr,1.0,0,0.0
+498,faszien,faszien,1.0,0,0.0
+499,springer,springer,1.0,0,0.0
+500,duale AND reihe,"duale,reihe",1.0,0,0.0
+502,emotionsregulation,emotionsregulation,1.0,0,0.0
+503,peplau,peplau,1.0,0,0.0
+504,pnf,pnf,1.0,0,0.0
+506,transgender,transgender,1.0,0,0.0
+507,werkstoffkunde,werkstoffkunde,1.0,0,0.0
+508,craniosacral,craniosacral,1.0,0,0.0
+509,qualitative AND sozialforschung,"qualitative,sozialforschung",1.0,0,0.0
+418,flossing,floss,1.0,0,0.0
+416,intensiv,intensiv,1.0,0,0.0
+286,demographischer AND wandel,"demographischer,wandel",1.0,0,0.0
+349,hypertonie,hypertonie,1.0,0,0.0
+319,ekel,ekel,1.0,0,0.0
+320,echokardiographie,echokardiographie,1.0,0,0.0
+321,drg,drg,1.0,0,0.0
+322,gesundheitsverhalten,gesundheitsverhalten,1.0,0,0.0
+323,mammakarzinom,mammakarzinom,1.0,0,0.0
+326,psychiatrische AND pflege,"psychiatrische,pflege",1.0,0,0.0
+327,patientenedukation,patientenedukation,1.0,0,0.0
+328,ambient AND assisted AND living AND and AND care,"ambient,assist,live,care",1.0,0,0.0
+329,pflegeforschung,pflegeforschung,1.0,0,0.0
+330,gesundheitsmanagement,gesundheitsmanagement,1.0,0,0.0
+331,dermatologie,dermatologie,1.0,0,0.0
+332,psychoonkologie,psychoonkologie,1.0,0,0.0
+333,trisomie AND 21,"trisomie,21",1.0,0,0.0
+334,notfallversorgung,notfallversorgung,1.0,0,0.0
+335,intensivtagebuch,intensivtagebuch,1.0,0,0.0
+336,generalistische AND pflegeausbildung,"generalistische,pflegeausbildung",1.0,0,0.0
+337,coping,cope,1.0,0,0.0
+338,ecmo,ecmo,1.0,0,0.0
+340,prosthetic AND joint AND infection AND riskfactors,"prosthetic,joint,infection,riskfactor",1.0,0,0.0
+341,spss,spss,1.0,0,0.0
+342,soziale AND ungleichheit,"soziale,ungleichheit",1.0,0,0.0
+344,karies,karie,1.0,0,0.0
+345,ains,ain,1.0,0,0.0
+346,manipulation,manipulation,8.0,0,0.0
+347,schmerzmanagement,schmerzmanagement,1.0,0,0.0
+317,udca,udca,1.0,0,0.0
+316,prothetik,prothetik,1.0,0,0.0
+315,sterbebegleitung,sterbebegleitung,1.0,0,0.0
+300,pflegeberatung,pflegeberatung,1.0,0,0.0
+287,endspurt,endspurt,1.0,0,0.0
+288,geburt,geburt,1.0,0,0.0
+289,burnout AND pflege,"burnout,pflege",1.0,0,0.0
+290,gewalt,gewalt,1.0,0,0.0
+291,kinder,kind,1.0,0,0.0
+293,migration,migration,1.0,0,0.0
+294,psychische AND erkrankungen,"psychische,erkrankungen",1.0,0,0.0
+296,katzung,katzung,1.0,0,0.0
+297,welsch,welsch,1.0,0,0.0
+298,labormedizin,labormedizin,1.0,0,0.0
+299,shared AND decision AND making,"share,decision,make",1.0,0,0.0
+301,das AND krankenhaus,"das,krankenhaus",1.0,0,0.0
+314,lernen,lernen,1.0,0,0.0
+302,pflegeplanung,pflegeplanung,1.0,0,0.0
+304,heilpraktiker,heilpraktiker,1.0,0,0.0
+305,magersucht,magersucht,1.0,0,0.0
+306,welsch AND histologie,"welsch,histologie",1.0,0,0.0
+307,urologie,urologie,1.0,0,0.0
+308,morbus AND parkinson,"morbus,parkinson",1.0,0,0.0
+309,vitamin AND c,"vitamin,c",1.0,0,0.0
+310,morbus AND crohn,"morbus,crohn",1.0,0,0.0
+311,histologie AND welsch,"histologie,welsch",1.0,0,0.0
+312,virologie,virologie,1.0,0,0.0
+313,klinische AND chemie,"klinische,chemie",1.0,0,0.0
+348,jamali AND narisi,"jamali,narisi",1.0,0,0.0
+351,supervision,supervision,1.0,0,0.0
+415,personalentwicklung,personalentwicklung,1.0,0,0.0
+352,suizid,suizid,1.0,0,0.0
+384,strahlentherapie,strahlentherapie,1.0,0,0.0
+385,colitis AND ulcerosa,"colitis,ulcerosa",1.0,0,0.0
+386,aids,aid,6.0,0,0.0
+388,impfen,impfen,1.0,0,0.0
+389,ebola,ebola,1.0,0,0.0
+390,wundversorgung,wundversorgung,1.0,0,0.0
+391,pandemie,pandemie,1.0,0,0.0
+393,schmerztherapie,schmerztherapie,1.0,0,0.0
+394,lancet,lancet,1.0,0,0.0
+395,aromapflege,aromapflege,1.0,0,0.0
+397,icf,icf,1.0,0,0.0
+398,mitarbeiterzufriedenheit,mitarbeiterzufriedenheit,1.0,0,0.0
+399,fasd,fasd,1.0,0,0.0
+400,gestationsdiabetes,gestationsdiabete,1.0,0,0.0
+401,stoma,stoma,1.0,0,0.0
+402,anamnese,anamnese,1.0,0,0.0
+403,risikomanagement,risikomanagement,1.0,0,0.0
+404,biochemie AND des AND menschen,"biochemie,de,menschen",1.0,0,0.0
+405,chronische AND schmerzen,"chronische,schmerzen",1.0,0,0.0
+406,palliativmedizin,palliativmedizin,1.0,0,0.0
+408,dienstplan,dienstplan,1.0,0,0.0
+409,prostatakarzinom,prostatakarzinom,1.0,0,0.0
+410,impfung,impfung,1.0,0,0.0
+412,transkulturelle AND pflege,"transkulturelle,pflege",1.0,0,0.0
+413,manuelle AND therapie,"manuelle,therapie",1.0,0,0.0
+382,i AND care,care,100.0,0,0.0
+381,versorgungsforschung,versorgungsforschung,1.0,0,0.0
+380,praxisanleitung AND pflege,"praxisanleitung,pflege",1.0,0,0.0
+365,entwicklungspsychologie,entwicklungspsychologie,1.0,0,0.0
+353,peep AND trial,"peep,trial",1.0,0,0.0
+354,die AND hebamme,"die,hebamme",1.0,0,0.0
+355,postpartale AND depression,"postpartale,depression",1.0,0,0.0
+356,crps,crps,1.0,0,0.0
+357,compliance,compliance,18.0,0,0.0
+359,pschyrembel,pschyrembel,1.0,0,0.0
+360,down AND syndrom,syndrom,1.0,0,0.0
+361,stottern,stottern,1.0,0,0.0
+362,pkms,pkms,1.0,0,0.0
+363,fallbuch AND innere AND medizin,"fallbuch,innere,medizin",1.0,0,0.0
+364,fotoatlas AND neuroanatomie,"fotoatlas,neuroanatomie",1.0,0,0.0
+366,pflegekammer,pflegekammer,1.0,0,0.0
+379,oberschenkelhalsbruch,oberschenkelhalsbruch,1.0,0,0.0
+367,partizipation,partizipation,1.0,0,0.0
+369,patientenzufriedenheit,patientenzufriedenheit,1.0,0,0.0
+370,endometriose,endometriose,1.0,0,0.0
+371,safewards,safeward,1.0,0,0.0
+372,stephan AND g AND allmendinger,"stephan,g,allmendinger",1.0,0,0.0
+373,hypnobirthing,hypnobirthe,1.0,0,0.0
+374,kinderkrankenpflege,kinderkrankenpflege,1.0,0,0.0
+375,kultursensible AND pflege,"kultursensible,pflege",1.0,0,0.0
+376,einsamkeit,einsamkeit,1.0,0,0.0
+377,generation AND z,"generation,z",1.0,0,0.0
+378,bindung,bindung,1.0,0,0.0
+1000,konfliktmanagement,konfliktmanagement,1.0,0,0.0

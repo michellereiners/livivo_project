@@ -1,93 +1,86 @@
 from elasticsearch import Elasticsearch
-import elasticsearch_dsl
 from pprint import pprint as pp
-import os
+
 import pandas as pd
 import xx_sent_ud_sm
 
-import urllib.request
-import urllib.parse
-import json
-import xml.etree.ElementTree as ET
+
 import en_core_sci_lg
 from collections import Counter
 import os
-import create_tokens as ct
-
+import tokens_functions as tf
+#%%
+from pprint import pprint as pp
 # Variante 1
 topicFile = "C:/Users/Fabian/Desktop/elastic/cord-metadata_qrels_topics/topics-rnd5_covid-complete.xml"
-run = "best"
+run = "second_run"
 # %%
-root = ET.parse(topicFile).getroot()
+root = pd.read_json("C:/Users/Fabian/PycharmProjects/Livivo/data/livivo/candidates/livivo_hq_1000.jsonl", lines=True)
 client = Elasticsearch([{'host': 'localhost'}, {'port': 9200}])
 
+path = "C:/Users/Fabian/PycharmProjects/Livivo/git/livivo_project/"
+#%%
+
+df = pd.read_csv(path+"Data/metadata.csv")
+
 
 # %%
 
+p = 0
 
 with open(path + run + '.txt', 'w') as f:
-    for i, topic in enumerate(root.findall('topic')):
-        # print(i)
-        query = topic.find('query').text.lower()
-        question = topic.find('question').text.lower()
-        narrative = topic.find('narrative').text.lower()
+    for i_topic in range(len(root)):
+        # print(p)
+        p += 1
+        query = root.iloc[i_topic, 1]
 
-        topic_id = topic.attrib.get('number')
-        query_tokenized = tokenize_string(query)
-        question_tokenized = tokenize_string(question)
-        narrative_tokenized = tokenize_string(narrative)
+        topic_id = root.iloc[i_topic, 0]
+        query_tokenized_uni = tf.tokenize_string_uni(query)
+        query_tokenized_sci = tf.tokenize_string_sci(query)
 
-        query_constructed = query_tokenized + " " + question_tokenized + " " + narrative_tokenized
-        # print(len(query_constructed))
-        # query_constructed = remove_dup(query_constructed.split())
-        # print(len(query_constructed))
-        # print("----------------")
 
-        # search = client.search({
-        #     "query": {
-        #         "query_string": {
-        #             "query": query_tokenized,
-        #             "fields": ["title_token", "abstract_token"],
-        #             "offsets": True,
-        #             "payloads": True,
-        #             "positions": True,
-        #             "term_statistics": True,
-        #             "field_statistics": True
-        #
-        #         }
-        #     }
-        # }, index="cord_tokenz", size="1050")
 
-        search = client.search(
-            {
+        search = client.search(body={
                 "query": {
-                    "multi_match": {
-                        "query": query_constructed,
-                        "fields": ["title_token^1.5", "abstract_token"],
-                        "type": "cross_fields",
-                        "tie_breaker": 0.30,
-                        "analyzer": "my_analyzer"
+                    "bool": {
+                        "should":[ {
+                            "query_string" : {
+                                "query": query_tokenized_sci,
+                                "fields": ["MESH_TOKENZ^10", "CHEM_TOKENZ^10"],
+                                # "type": "cross_fields",
+                                # "tie_breaker": 0.30,
+                                "analyzer": "comma"
+                            }
+                        },
+                            {
+                                "query_string": {
+                                    "query": query_tokenized_uni,
+                                    "fields": ["TITLE_TOKENZ", "ABSTRACT_TOKENZ"],
+                                    # "type": "cross_fields",
+                                    # "tie_breaker": 0.30,
+                                    "analyzer": "comma"
+
+                            }}
+                        ]
                     }
-                },
+                }
 
-            }, index="cord_tokenz", size="1050")
+            }, index="livivo", size="100")
 
-        dup_list = []
         counter = 0
-        for i, hit in enumerate(search['hits'].get('hits'), 1):
-            id = hit['_source'].get('cord_uid')
-            if id not in dup_list and counter < 1000:
-                counter += 1
+        if len(search['hits'].get('hits')) > 0:
+            for i, hit in enumerate(search['hits'].get('hits'), 1):
+                id = hit['_source'].get('qid')
+
                 line = " ".join(
-                    [str(topic_id), "0", str(hit['_source'].get('cord_uid')), str(counter), str(hit.get('_score')),
+                    [str(topic_id), "0", str(hit['_source'].get('DBRECORDID')), str(counter), str(hit.get('_score')),
                      str(run), str('\n')])
                 f.write(line)
+                counter += 1
 
-            dup_list.append(id)
-        # if len(set(ids)) < len(ids):
-        #     i = [id_ for id_ in ids if ids.count(id_) > 1]
-        #     print(topic_id,  i)
-
+# if len(set(ids)) < len(ids):
+#     i = [id_ for id_ in ids if ids.count(id_) > 1]
+#     print(topic_id,  i)
 # %%
 from elasticsearch import Elasticsearch
 import elasticsearch_dsl
@@ -109,15 +102,15 @@ os.chdir("C:/Users/Fabian/PycharmProjects/Livivo")
 # %%
 body_index = {
     "settings": {
-        "similarity":
-            {
-                "my_similarity": {
-                    "type": "DFR",
-                    "basic_model": "g",
-                    "after_effect": "b",
-                    "normalization": "z"
-                }
-            },
+        # "similarity":
+        #     {
+        #         "my_similarity": {
+        #             "type": "DFR",
+        #             "basic_model": "g",
+        #             "after_effect": "b",
+        #             "normalization": "z"
+        #         }
+        #     },
         "analysis": {
             "tokenizer": {
                 "comma": {
@@ -180,7 +173,7 @@ body_index = {
 # make an API call to the Elasticsearch cluster
 # and have it return a response:
 response = client.indices.create(
-    index="livivo",
+    index="livivo_bm25",
     body=body_index,
     ignore=400  # ignore 400 already exists code
 )

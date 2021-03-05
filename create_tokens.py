@@ -1,17 +1,21 @@
 import pandas as pd
+import numpy as np
+
 # from elasticsearch import Elasticsearch
-import xx_sent_ud_sm
 import en_core_sci_lg
+import de_core_news_lg
+
 import os
 
 # client = Elasticsearch([{'host': 'localhost'}, {'port': 9200}])
 
-nlp_uni = xx_sent_ud_sm.load()
+nlp_german = de_core_news_lg.load()
+
 nlp_sci = en_core_sci_lg.load()
 
 
 # UNIVERSAL
-def is_token_allowed_uni(token):
+def is_token_allowed_german(token):
     '''
          Only allow valid tokens which are not stop words
          and punctuation symbols.
@@ -21,20 +25,20 @@ def is_token_allowed_uni(token):
     return True
 
 
-def preprocesstoken_uni(token):
+def preprocesstoken_german(token):
     # Reduce token to its lowercase lemma form
     return token.lemma_.strip().lower()
 
 
-def tokenize_uni(x):
-    try:
-        return str([preprocesstoken_uni(token) for token in nlp_uni(x) if is_token_allowed_uni(token)])
-    except:
-        return str([])
+# def tokenize_german(x):
+#     try:
+#         return str([preprocesstoken_german(token) for token in nlp_german(x) if is_token_allowed_german(token)])
+#     except:
+#         return str([])
 
 
-def tokenize_string_uni(x):
-    return ",".join([preprocesstoken_uni(token) for token in nlp_sci(x) if is_token_allowed_uni(token)])
+def tokenize_string_german(x):
+    return ",".join([preprocesstoken_german(token) for token in nlp_german(x) if is_token_allowed_german(token)])
 
 
 # SCIENTIFIC
@@ -53,11 +57,11 @@ def preprocesstoken_sci(token):
     return token.lemma_.strip().lower()
 
 
-def tokenize_sci(x):
-    try:
-        return str([preprocesstoken_sci(token) for token in nlp_sci(x) if is_token_allowed_sci(token)])
-    except:
-        return str([])
+# def tokenize_sci(x):
+#     try:
+#         return str([preprocesstoken_sci(token) for token in nlp_sci(x) if is_token_allowed_sci(token)])
+#     except:
+#         return str([])
 
 
 def tokenize_string_sci(x):
@@ -77,23 +81,37 @@ def prettify_v2(x):
 
 
 
-#%%
 
 df = pd.read_csv("all_filtered_final.csv", delimiter=";")
-print("Hello")
-df.fillna(value="", inplace=True)
+df.fillna('', inplace=True)
 
 
-try:
-    df['KEYWORDS_TOKENZ'] = df['KEYWORDS'].apply(tokenize_string_sci)
-except:
-    pass
 
-df['TITLE_TOKENZ'] = df['TITLE'].apply(tokenize_string_uni)
-print("tit_to")
+german_mask = df['LANGUAGE'] == 'ger'
+else_mask = (df['LANGUAGE'] != 'ger') | (df['LANGUAGE'] == '')
 
-df['ABSTRACT_TOKENZ'] = df['ABSTRACT'].apply(tokenize_string_uni)
-print("ab_to")
+# TITLE
+df['TITLE_TOKENZ_GERMAN'] = df.loc[german_mask, 'TITLE']
+df.loc[german_mask, 'TITLE_TOKENZ_GERMAN'] = df.loc[german_mask, 'TITLE_TOKENZ_GERMAN'].apply(tokenize_string_german)
+print("title_tokenz_german")
+
+df['TITLE_TOKENZ_SCI'] = df.loc[else_mask, 'TITLE']
+df.loc[else_mask, 'TITLE_TOKENZ_SCI'] = df.loc[else_mask, 'TITLE_TOKENZ_SCI'].apply(tokenize_string_sci)
+print("title_tokenz_sci")
+
+
+# ABSTRACT
+df['ABSTRACT_TOKENZ_GERMAN'] = df.loc[german_mask, 'ABSTRACT']
+df.loc[german_mask, 'ABSTRACT_TOKENZ_GERMAN'] = df.loc[german_mask, 'ABSTRACT_TOKENZ_GERMAN'].apply(tokenize_string_german)
+print("abstract_tokenz_german")
+
+df['ABSTRACT_TOKENZ_SCI'] = df.loc[else_mask, 'ABSTRACT']
+df.loc[else_mask, 'ABSTRACT_TOKENZ_SCI'] = df.loc[else_mask, 'ABSTRACT_TOKENZ_SCI'].apply(tokenize_string_sci)
+print("abstract_tokenz_sci")
+
+
+df['KEYWORDS_TOKENZ'] = df['KEYWORDS'].apply(tokenize_string_sci)
+print("keywords")
 
 df['MESH_TOKENZ'] = df['MESH'].apply(tokenize_string_sci)
 print("mesh_to")
@@ -102,4 +120,6 @@ df['CHEM_TOKENZ'] = df['CHEM'].apply(tokenize_string_sci)
 print("chem_to")
 
 
-df.to_csv(f"tokenz.csv", index=False)
+df.fillna('', inplace=True)
+
+df.to_csv(f"tokenz_german_and_sci.csv", index=False)
